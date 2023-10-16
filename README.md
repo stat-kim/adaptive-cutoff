@@ -6,4 +6,4 @@ This is the repository where we have stored the R code for our paper, "A Neural 
 The `Data_simulating.R` file is a code script designed for generating the data required for our simulation study and real data application. 
 
 ## File 2: `Classifiers_adaptive_cutoff.R`
-The `Classifiers_adaptive_cutoff.R` file is a code script designed for training neural networks and linear classifiers and creating cutoff functions for testing a new data vector.  
+The `Classifiers_adaptive_cutoff.R` file is a code script designed for (1)training neural networks and linear classifiers and (2)creating cutoff functions for testing normality of a new data vector.  
