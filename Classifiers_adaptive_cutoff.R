@@ -36,7 +36,7 @@ test.normal.desc <- t(apply(test.normal, 3, desc_f))
 test.nonnormal.desc <- t(apply(test.nonnormal, 3, desc_f))
 
 
-## Learning neural networks and linear classifiers
+### Learning neural networks and linear classifiers
 batch_size <- 128
 epochs <- 500
 
@@ -78,7 +78,7 @@ model.linear %>% fit(
   epochs = epochs#,
 )
 
-### Neural Networks
+### Cutoffs from Neural Networks
 train.preds <- model %>% predict(train.desc)
 train.preds <- train.preds[1:dim(train.normal)[3]]
 cutoff <- quantile(train.preds, .95)
@@ -94,7 +94,7 @@ test.stats.normal <- model %>% predict(test.normal.desc)
 test.stats.nonnormal <- model %>% predict(test.nonnormal.desc)
 
 
-### Linear classifier
+### Cutoffs from Linear classifier
 train.preds.linear <- model.linear %>% predict(train.desc)
 train.preds.linear <- train.preds.linear[1:dim(train.normal)[3]]
 cutoff.linear <- quantile(train.preds.linear, .95)
