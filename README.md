@@ -9,4 +9,4 @@ The `Data_simulating.R` file is a code script designed for generating the data r
 The `Classifiers_adaptive_cutoff.R` file is a code script designed for (1)training neural networks and linear classifiers and (2)creating cutoff functions for testing normality of a new data vector.  
 
 
-In File 1 and File 2, comments have been included to assist users in comprehending the content.
+In File 1 and File 2, necessary comments have been included to assist users in comprehending the content.
