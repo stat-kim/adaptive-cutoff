@@ -36,9 +36,9 @@ test.normal.desc <- t(apply(test.normal, 3, desc_f))
 test.nonnormal.desc <- t(apply(test.nonnormal, 3, desc_f))
 
 
-## Ne
+## Learning neural networks and linear classifiers
 batch_size <- 128
-epochs <- 5
+epochs <- 500
 
 # Neural Networks
 model <- keras_model_sequential() %>%
