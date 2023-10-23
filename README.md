@@ -9,6 +9,8 @@ The `Data_simulating.R` file is a code script designed for generating the data r
 The `Classifiers_adaptive_cutoff.R` file is a code script designed for (1)training neural networks and linear classifiers and (2)creating cutoff functions for testing normality of a new data vector.  
 
 ## File 3: `Realdata_aggregation.R`
+The `Realdata_aggregation.R` file is a code script designed for aggregating data of original resolution.
+
 
 In File 1, File 2, and File 3, necessary comments have been included to assist users in comprehending the content. 
 
